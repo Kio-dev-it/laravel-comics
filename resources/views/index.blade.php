@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Laravel Comics</title>
-    </head>
-    <body>
-        <h1>Hello comics!</h1>
-    </body>
-</html>
+@extends('layout.base')
+
+@section('pageContent')
+    <h1>Hello LaraComics!</h1>
+
+    <ul>
+        @foreach ($comics as $comic)
+            <li>{{$comic["title"]}}</li>
+        @endforeach
+    </ul>
+@endsection
