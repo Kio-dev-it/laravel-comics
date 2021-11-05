@@ -1,0 +1,18 @@
+@import url(https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap);/* Colors */
+/* Sizes */
+/* Google Fonts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Containers */
+.container {
+  max-width: 81.25rem;
+  margin: 0 auto;
+}
