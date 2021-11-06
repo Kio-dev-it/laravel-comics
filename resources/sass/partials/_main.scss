@@ -71,7 +71,35 @@ main{
         }
     }
 
+    .mega-link{
+        background-color: $mainColor;
+        padding: 3rem 0;
 
+        & .container{
+            display: flex;
+            justify-content: space-around;
+            
+        }
 
-    
+        &__card{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #fff;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+
+        &__image{
+            width: 3.125rem;
+            height: 3.4375rem;
+            margin-right: .5rem;
+
+            img{
+                object-fit: contain;
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
 }

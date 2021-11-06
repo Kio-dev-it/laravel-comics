@@ -146,3 +146,30 @@ main .container .btn-load {
   color: #fff;
   border: none;
 }
+main .mega-link {
+  background-color: #0282f9;
+  padding: 3rem 0;
+}
+main .mega-link .container {
+  display: flex;
+  justify-content: space-around;
+}
+main .mega-link__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+main .mega-link__image {
+  width: 3.125rem;
+  height: 3.4375rem;
+  margin-right: 0.5rem;
+}
+main .mega-link__image img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
