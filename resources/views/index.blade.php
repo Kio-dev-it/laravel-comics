@@ -12,7 +12,6 @@
         </div>
 
         <div class="card-wrapper">
-
             @foreach ($comics as $comic)
                 <div class="card">
                     <div class="card__image">

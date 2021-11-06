@@ -15,9 +15,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
-    $data = config("comics");
-
-    $navData = config("navigationmenu");
-
-    return view('index', ["comics" => $data], ["navmenu" => $navData]);
+    $data = [
+        "comics" =>  config("comics"),
+        "navmenu" => config("navigationmenu"),
+        "topData" => config("footerTopData"),
+        "bottomData" => config("footerBottomData"),
+];
+    return view('index', $data);
 })->name("home");
