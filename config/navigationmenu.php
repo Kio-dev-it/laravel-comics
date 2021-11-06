@@ -1,0 +1,56 @@
+<?php
+
+use function Ramsey\Uuid\v1;
+
+return [
+    [
+        "name"=>"Characters",
+        "url"=>"#",
+        "state"=>"notActive"
+    ],
+    [
+        "name"=>"Comics",
+        "url"=>"#",
+        "state"=>"active"
+    ],
+    [
+        "name"=>"Movies",
+        "url"=>"#",
+        "state"=>"notActive"
+    ],
+    [
+        "name"=>"Tv",
+        "url"=>"#",
+        "state"=>"notActive"
+    ],
+    [
+        "name"=>"Games",
+        "url"=>"#",
+        "state"=>"notActive"
+    ],
+    [
+        "name"=>"Collectibles",
+        "url"=>"#",
+        "state"=>"notActive"
+    ],
+    [
+        "name"=>"Videos",
+        "url"=>"#",
+        "state"=>"notActive"
+    ],
+    [
+        "name"=>"Fans",
+        "url"=>"#",
+        "state"=>"notActive"
+    ],
+    [
+        "name"=>"News",
+        "url"=>"#",
+        "state"=>"notActive"
+    ],
+    [
+        "name"=>"Shop",
+        "url"=>"#",
+        "state"=>"notActive"
+    ],
+];

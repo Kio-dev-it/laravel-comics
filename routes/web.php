@@ -17,5 +17,7 @@ Route::get('/', function () {
 
     $data = config("comics");
 
-    return view('index', ["comics" => $data]);
+    $navData = config("navigationmenu");
+
+    return view('index', ["comics" => $data], ["navmenu" => $navData]);
 })->name("home");

@@ -1,5 +1,6 @@
-@import url(https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap);/* Colors */
+@import url(https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=PT+Sans:wght@400;700&display=swap);/* Colors */
 /* Sizes */
+/* fonts */
 /* Google Fonts */
 * {
   margin: 0;
@@ -8,11 +9,72 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 /* Containers */
 .container {
   max-width: 81.25rem;
   margin: 0 auto;
+}
+
+.header__top {
+  background-color: #0282f9;
+  text-align: right;
+  color: #fff;
+  font-weight: 700;
+}
+.header__top span {
+  display: inline-block;
+  font-size: 0.825rem;
+  padding: 0.25rem 0 0.25rem 1rem;
+}
+.header__bottom {
+  background-color: #fff;
+}
+.header__bottom .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__bottom .container ul {
+  display: flex;
+  list-style: none;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 700;
+}
+.header__bottom .container ul li {
+  margin: 0 0.5rem;
+}
+.header__bottom .container ul a {
+  display: inline-block;
+  text-decoration: none;
+  color: #464646;
+  text-transform: uppercase;
+  padding: 3.125rem 0.5rem;
+}
+.header__bottom .container ul a.active {
+  border-bottom: 3px solid #0282f9;
+  color: #0282f9;
+}
+.header__bottom .container .search {
+  display: flex;
+  width: 7.8125rem;
+  border-bottom: 0.125rem solid #0282f9;
+}
+.header__bottom .container .search input {
+  font-size: 1rem;
+  width: 90%;
+  text-align: right;
+  padding-right: 0.5rem;
+  border: none;
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #464646;
+  font-weight: 700;
+}
+.header__bottom .container .search button {
+  border: none;
+  background: transparent;
+  background-color: #fff;
+  font-size: 1rem;
 }
