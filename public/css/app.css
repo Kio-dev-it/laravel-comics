@@ -78,3 +78,71 @@ body {
   background-color: #fff;
   font-size: 1rem;
 }
+
+.hero {
+  height: 25rem;
+}
+.hero__image {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+main {
+  background-color: #000;
+  color: #fff;
+}
+main .container {
+  position: relative;
+  padding-bottom: 1rem;
+}
+main .container .section-tag {
+  display: inline-block;
+  position: absolute;
+  transform: translateY(-50%);
+  padding: 0.5rem 1.75rem;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  background-color: #0282f9;
+}
+main .container .card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+main .container .card {
+  margin: 3.625rem 0.5rem 0 0.5rem;
+  width: calc(16.6666666667% - 1rem);
+}
+main .container .card__image {
+  height: 11.25rem;
+  width: 11.25rem;
+}
+main .container .card__image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+main .container .card__title {
+  padding-top: 1rem;
+  text-transform: uppercase;
+}
+main .container .btn-load {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.5rem 3rem;
+  background-color: #0282f9;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+}
