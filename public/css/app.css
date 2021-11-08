@@ -250,7 +250,7 @@ main .mega-link__image img {
   margin-right: 1.25rem;
 }
 
-.container.chi-siamo {
+.section__chi-siamo .container {
   min-height: 37.5rem;
   padding-top: 3rem;
 }
