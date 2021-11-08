@@ -1,5 +1,7 @@
 @extends('layout.base')
 
+@section('title', "Comics Series")
+
 @section('pageContent')
     <div class="hero">
         <img class="hero__image" src="{{asset("images/jumbotron.jpg")}}" alt="">

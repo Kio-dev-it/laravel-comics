@@ -1,5 +1,7 @@
 @extends('layout.base')
 
+@section('title', "Chi Siamo" )
+
 @section('pageContent')
 
     <section class="section__chi-siamo">
