@@ -67,7 +67,7 @@
             <div class="footer-bottom__right">
                 <a href="#" class="follow">FOLLOW US</a>
                 @foreach ($bottomData as $social)
-                <a href="{{$social["src"]}}"><img src="{{$social["img"]}}" alt="{{$social["name"]}}"></a>
+                <a href="{{$social["src"]}}"><img src="{{asset($social["img"])}}" alt="{{$social["name"]}}"></a>
                 @endforeach
             </div>
 
