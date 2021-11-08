@@ -23,3 +23,14 @@ Route::get('/', function () {
 ];
     return view('index', $data);
 })->name("home");
+
+Route::get('/chi-siamo', function(){
+
+    $data = [
+        "navmenu" => config("navigationmenu"),
+        "topData" => config("footerTopData"),
+        "bottomData" => config("footerBottomData"),
+    ];
+
+    return view('chi-siamo', $data);
+})->name("whos");

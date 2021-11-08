@@ -5,52 +5,57 @@ use function Ramsey\Uuid\v1;
 return [
     [
         "name"=>"Characters",
-        "url"=>"#",
+        "url"=>"home",
         "state"=>"notActive"
     ],
     [
         "name"=>"Comics",
-        "url"=>"#",
+        "url"=>"home",
         "state"=>"active"
     ],
     [
         "name"=>"Movies",
-        "url"=>"#",
+        "url"=>"home",
         "state"=>"notActive"
     ],
     [
         "name"=>"Tv",
-        "url"=>"#",
+        "url"=>"home",
         "state"=>"notActive"
     ],
     [
         "name"=>"Games",
-        "url"=>"#",
+        "url"=>"home",
         "state"=>"notActive"
     ],
     [
         "name"=>"Collectibles",
-        "url"=>"#",
+        "url"=>"home",
         "state"=>"notActive"
     ],
     [
         "name"=>"Videos",
-        "url"=>"#",
+        "url"=>"home",
         "state"=>"notActive"
     ],
     [
         "name"=>"Fans",
-        "url"=>"#",
+        "url"=>"home",
         "state"=>"notActive"
     ],
     [
         "name"=>"News",
-        "url"=>"#",
+        "url"=>"home",
         "state"=>"notActive"
     ],
     [
         "name"=>"Shop",
-        "url"=>"#",
+        "url"=>"home",
         "state"=>"notActive"
     ],
+    [
+        "name" => "Chi Siamo",
+        "url" => "whos",
+        "state" => "notActive"
+    ]
 ];

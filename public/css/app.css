@@ -249,3 +249,8 @@ main .mega-link__image img {
 .footer-bottom .container .footer-bottom__right a:not(:last-child) {
   margin-right: 1.25rem;
 }
+
+.container.chi-siamo {
+  min-height: 37.5rem;
+  padding-top: 3rem;
+}

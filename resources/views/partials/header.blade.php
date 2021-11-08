@@ -11,7 +11,7 @@
             <ul class="navigation">
 
                 @foreach ($navmenu as $linkmenu)
-                    <li><a href="{{$linkmenu["url"]}}" class="{{$linkmenu["state"]}}">{{$linkmenu["name"]}}</a></li>
+                    <li><a href="{{route($linkmenu["url"])}}" class="{{$linkmenu["state"]}}">{{$linkmenu["name"]}}</a></li>
                 @endforeach
 
             </ul>
